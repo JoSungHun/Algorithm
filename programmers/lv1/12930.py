@@ -17,6 +17,8 @@ def solution(s):
     
     return answer
 
-s = '_try     hello wor_ld'
+s = 'try     hello world'
 
 print(solution(s))
+
+# split을 사용할경우 공백이 여러개로 되어있을 경우 문제가 풀리지 않았다. -> 왜그런지 공부 필요
